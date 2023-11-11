@@ -5,12 +5,12 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 # Table of Contents
-1. [Installation instructions](#Installation instructions)
+1. [Installation instructions](#Installation-instructions)
 2. Usage instructions
 3. File structure of the project
 4. License information
 
-## Installation instructions
+# Installation instructions
 
 
 # Usage instructions
