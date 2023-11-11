@@ -20,4 +20,4 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 # License Information
-
+Licensed under the [MIT](https://github.com/lusl007/hangman591/blob/main/LICENSE) license.
