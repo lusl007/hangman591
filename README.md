@@ -10,7 +10,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 3. File structure of the project
 4. License information
 
-# Installation instructions
+## Installation instructions
 
 
 # Usage instructions
