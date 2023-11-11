@@ -5,17 +5,17 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 # Table of Contents
-1. [Installation instructions](#Installation-instructions)
-2. Usage instructions
-3. File structure of the project
-4. License information
+1. [Installation Instructions](#Installation-Instructions-)
+2. [Usage Instructions](#Usage-Instructions)
+3. [File Structure of the Project](#File-Structure-of-the-Project)
+4. [License Information](#License-Information)
 
-# Installation instructions
+# Installation Instructions
 
 
-# Usage instructions
+# Usage Instructions
 
-# File structure of the project
+# File Structure of the Project
 
-# License information
+# License Information
 
