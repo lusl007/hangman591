@@ -5,7 +5,7 @@ print(word_list)
 
 # get a random element of the list
 word = random.choice(word_list)
-print(word)
+print(word.upper())
 
 # user input for a single letter
 guess = input('Please input a single letter: ')
