@@ -14,9 +14,19 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 # Usage Instructions
-
+- Enter a single alphabetical character
+    - If the user enters anything else, they will be prompted again to enter a letter
+- If guessed correctly, the letter will be displayed at it's intended place
+    - Letters not yet guessed will be shown as underscores
+- If guessed incorrectly, user will lose a life
+    - Remaining lives will be visible to the user
+    - When all lives are lost, the game ends and the word will be revealed
+- If the word was guessed within the number of remaining lives, the user wins the game
 
 # File Structure of the Project
+- Folder "hangman" contains all the files created for this project
+- Files "milestoine_2.py" to "milestone_4.py" contain parts of the complete program
+- File "milestone_5.py" holds the full program
 
 
 # License Information
