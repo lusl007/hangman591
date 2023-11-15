@@ -4,11 +4,6 @@ word_list = ['banana', 'apple', 'orange', 'strawberry', 'pineapple']
 word = random.choice(word_list)
 print(word.upper())
 
-# .find()?
-# enumerate()?
-# empty list?
-
-
 def check_guess(guess):
     guess = guess.lower()
     
