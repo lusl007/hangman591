@@ -6,11 +6,11 @@ class Hangman:
         self.word_list = word_list
         self.num_lives = num_lives
         self.word = random.choice(word_list)
-        self.word_guessed = ['_' * len(self.word)] # If player guesses 'a', the list would be ['a', '_', '_', '_', '_']
+        self.word_guessed = ['_'] * len(self.word) # If player guesses 'a', the list would be ['a', '_', '_', '_', '_']
         self.num_letters = len(set(self.word)) # number of UNIQUE letters in the word that have not been guessed yet
         self.list_of_guesses = [] # list of the guesses that have already been tried
         
-    
+
     def check_guess(self, guess):
         guess = guess.lower()
         
@@ -20,11 +20,10 @@ class Hangman:
             for char in range(len(self.word)):
                 if guess == self.word[char]: 
                     self.word_guessed[char] = guess 
-                    print(char)
                     print(self.word_guessed) 
             
             self.num_letters -= 1 
-            print(self.num_letters)
+            
         else:
             self.num_lives -= 1
             print(f'Sorry, {guess} is not in the word')
@@ -32,7 +31,7 @@ class Hangman:
 
 
     def ask_for_input(self):
-        print(self.word) #comment this out in the end
+        #print(self.word)
         
         while True:
             print('Guess a letter')
@@ -55,7 +54,7 @@ def play_game(word_list):
     while True:
         if game.num_lives == 0:
             print('You lost!')
-            print(f'The word was {game.word}')
+            print(f'The word was: {game.word}')
             break
         elif game.num_letters > 0:
             game.ask_for_input()
@@ -63,6 +62,6 @@ def play_game(word_list):
             print('Congratulations. You won the game!')
             break
 
-word_list = ['banana'] #, 'apple', 'orange', 'strawberry', 'pineapple']
+word_list = ['banana', 'apple', 'orange', 'strawberry', 'pineapple']
 play_game(word_list)
 
